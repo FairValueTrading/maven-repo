@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  
+  <parent>
+    <groupId>com.trading.strategy</groupId>
+    <artifactId>mavenize-parent</artifactId>
+    <version>1.0.0</version>
+  </parent>
+
+  <groupId>org.boost</groupId>
+  <artifactId>boost-parent</artifactId>
+  <version>1.56.0</version>
+  <packaging>pom</packaging>
+
+  <name>Boost Parent</name>
+  <description>
+    Boost library
+  </description>
+  <url>http://www.boost.org</url>
+
+  <build>
+    <pluginManagement>
+      <plugins>
+        <plugin>
+          <groupId>com.github.maven-nar</groupId>
+          <artifactId>nar-maven-plugin</artifactId>
+          <version>3.2.0</version>
+          <extensions>true</extensions>
+          <configuration>
+            <!-- Key configuration to package all aol constructed in src/nar/resources/aol-->
+            <resourcesCopyAOL>false</resourcesCopyAOL>
+          </configuration>
+        </plugin>
+      </plugins>
+    </pluginManagement>
+  </build>
+
+  <modules>
+    <module>boost</module>
+    <module>boost_system</module>
+    <module>boost_chrono</module>
+    <module>boost_date_time</module>
+    <module>boost_program_options</module>
+    <module>boost_filesystem</module>
+    <module>boost_thread</module>
+    <module>boost_log</module>
+    <module>boost_log_setup</module>
+    <!--module>boost_python</module-->
+    <module>boost_regex</module>
+  </modules>
+</project>
