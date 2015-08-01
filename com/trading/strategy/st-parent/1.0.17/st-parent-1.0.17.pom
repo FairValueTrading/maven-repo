@@ -34,6 +34,8 @@
     <zeusing.version>1.0.0</zeusing.version>
     <lts.version>1.0.0</lts.version>
     <optionlib.version>1.0.0</optionlib.version>
+    <ctp.version>6.3.6</ctp.version>
+    <femas.version>1.0.1</femas.version>
   </properties>
 
   <profiles>
@@ -410,6 +412,30 @@
         <groupId>com.trading.optionlib</groupId>
         <artifactId>optionlib</artifactId>
         <version>${optionlib.version}</version>
+        <type>nar</type>
+      </dependency>
+      <dependency>
+        <groupId>cn.com.sfit</groupId>
+        <artifactId>thostmduserapi</artifactId>
+        <version>${ctp.version}</version>
+        <type>nar</type>
+      </dependency>
+      <dependency>
+        <groupId>cn.com.sfit</groupId>
+        <artifactId>thosttraderapi</artifactId>
+        <version>${ctp.version}</version>
+        <type>nar</type>
+      </dependency>
+      <dependency>
+        <groupId>cn.com.cffexit</groupId>
+        <artifactId>ustpmduserapi</artifactId>
+        <version>${femas.version}</version>
+        <type>nar</type>
+      </dependency>
+      <dependency>
+        <groupId>cn.com.cffexit</groupId>
+        <artifactId>ustptraderapi</artifactId>
+        <version>${femas.version}</version>
         <type>nar</type>
       </dependency>
     </dependencies>
