@@ -9,7 +9,7 @@
     <artifactId>mavenize-parent</artifactId>
     <version>1.0.0</version>
   </parent>
-
+  
   <groupId>com.trading.strategy</groupId>
   <artifactId>mavenconfig</artifactId>
   <version>1.0.5</version>
@@ -17,14 +17,6 @@
 
   <name>mavenconfig</name>
   <description>Maven Config</description>
-
-  <distributionManagement>
-    <repository>
-      <id>releases</id>
-      <name>releases</name>
-      <url>http://HOSTNAME:8081/nexus/content/repositories/releases</url>
-    </repository>
-  </distributionManagement>
 
   <build>
     <plugins>
