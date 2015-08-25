@@ -32,7 +32,7 @@
     <reallogic.sbe-cpp.version>1.0.3-RC2</reallogic.sbe-cpp.version>
     <quickfix.version>1.13.3</quickfix.version>
     <zeusing.version>1.0.0</zeusing.version>
-    <lts.version>1.0.0</lts.version>
+    <lts.version>1.0.1</lts.version>
     <optionlib.version>1.0.0</optionlib.version>
     <ctp.version>6.3.6</ctp.version>
     <femas.version>1.0.1</femas.version>
