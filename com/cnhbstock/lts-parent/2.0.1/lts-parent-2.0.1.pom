@@ -36,7 +36,6 @@
     <module>ltsmarketdata</module>
     <module>ltsmarketaccess</module>
     <module>ltsmarketquery</module>
-    <module>ltsmarketdatal2</module>
   </modules>
 
 </project>
