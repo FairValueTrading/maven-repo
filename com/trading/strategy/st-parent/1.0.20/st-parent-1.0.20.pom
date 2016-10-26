@@ -61,7 +61,7 @@
                 <options>
                   <option>-O3</option>
                   <option>-DNDEBUG</option>
-                  <option>-march=native</option>
+                  <!--option>-march=native</option-->
                   <option>-std=gnu++1y</option>
                   <option>-pthread</option>
                 </options>
