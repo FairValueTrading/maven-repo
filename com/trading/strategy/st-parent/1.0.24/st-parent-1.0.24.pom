@@ -504,7 +504,7 @@
       </dependency>
 	  <dependency>
         <groupId>mysql</groupId>
-        <artifactId>mysql-connector-cpp</artifactId>
+        <artifactId>mysqlcppconn</artifactId>
         <version>${mysqlconn.version}</version>
         <type>nar</type>
       </dependency>
