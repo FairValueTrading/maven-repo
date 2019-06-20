@@ -15,7 +15,7 @@
   <version>6.3.15</version>
   <packaging>pom</packaging>
 
-  <name>CTP</name>
+  <name>CTP API</name>
   <description>CTP library</description>
   <url>http://www.sfit.com.cn/</url>
 
